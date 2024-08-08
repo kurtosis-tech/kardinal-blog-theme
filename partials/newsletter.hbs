@@ -1,0 +1,18 @@
+
+ <div class="newsletter-container">
+        <h2>Join our <span class="highlight">newsletter</span></h2>
+
+        <p>Stay on top of our product updates and launches. Join our newsletter now!</p>
+        <form class="newsletter-form" data-members-form="subscribe">
+
+            <div class="mail-input input-container form-group">
+                <input type="email" placeholder="Your email" class="subscribe-email" data-members-email required>
+                <button class="button primary" type="submit">Join newsletter <span class="button-content"> <img src="{{asset "images/right-arrow.svg"}}" alt="arrow"></span>
+                <span class="button-loader">{{> "icons/loader"}}</span> </button>
+            </div>
+
+            <div class="message-success">     
+              <strong>Great!</strong> Check your inbox and click the link to confirm your subscription.</div>   
+                         <div class="message-error">Please enter a valid email address! </div>
+        </form>
+    </div>
