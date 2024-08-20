@@ -1408,8 +1408,8 @@ is the very first element in the post content */
 .gh-content > p {
     font-family: var(--font-serif);
     font-weight: 400;
-    font-size: 2rem;
     line-height: 1.6em;
+    color: var(--color-gray-text);
 }
 
 .gh-content > p img {
